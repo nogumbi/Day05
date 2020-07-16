@@ -6,14 +6,14 @@
 /*   By: nogumbi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/16 14:26:14 by nogumbi           #+#    #+#             */
-/*   Updated: 2020/07/16 14:26:30 by nogumbi          ###   ########.fr       */
+/*   Updated: 2020/07/16 14:40:11 by nogumbi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include<string.h>
 
-int     ft_is_numeric(char *str)
+int     ft_str_is_uppercase(char *str)
 {
     int     i;
     i = 0;
