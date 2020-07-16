@@ -6,13 +6,12 @@
 /*   By: nogumbi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 14:33:23 by nogumbi           #+#    #+#             */
-/*   Updated: 2020/07/16 08:27:23 by nogumbi          ###   ########.fr       */
+/*   Updated: 2020/07/16 09:39:34 by nogumbi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
-
-void 		ft_putchar(char c);
+#include<string.h>
 
 char 		*ft_strncpy(char *dest, char *src, unsigned int n)
 {
