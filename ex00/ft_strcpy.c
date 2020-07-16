@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncpy.c                                       :+:      :+:    :+:   */
+/*   ft_strcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nogumbi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/15 13:25:41 by nogumbi           #+#    #+#             */
-/*   Updated: 2020/07/15 13:33:21 by nogumbi          ###   ########.fr       */
+/*   Created: 2020/07/16 09:34:40 by nogumbi           #+#    #+#             */
+/*   Updated: 2020/07/16 09:37:26 by nogumbi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include<unistd.h>
+#include<string.h>
 
-void 		ft_putchar(char c);
-
-char 		*ft_strncpy(char *dest, char *arc, unsigned int n)
+char 		*ft_strcpy(char *dest, char *arc)
 {
-	n = 0;
+	int		i;
+	i = 0;
 	while(arc[i] != '\0')
 	{
 		dest[i] = arc[i];
@@ -24,4 +24,3 @@ char 		*ft_strncpy(char *dest, char *arc, unsigned int n)
 	}
 	return dest;
 }
-
